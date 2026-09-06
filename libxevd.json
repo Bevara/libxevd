@@ -1,0 +1,17 @@
+{
+    "name": "libxevd",
+    "description": "MPEG-5 EVC (Essential Video Coding) decoder",
+    "filters":["evcdec"],
+    "help": "This filter decodes raw EVC elementary streams using xevd.",
+    "support": [
+        "video"
+    ],
+    "sources":"https://bevara.ddns.net/sources/libxevd.accessor",
+    "filter_source":{
+        "evcdec" : "dec_evc.c"
+    },
+    "extension":{
+      "evc" : "video"
+    },
+    "licence_required":false
+}
