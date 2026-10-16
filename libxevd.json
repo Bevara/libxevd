@@ -13,6 +13,10 @@
     "extension":{
       "evc" : "video"
     },
-    "licence_required":false,
-    "using": ["solver_minimal_1", "solver_1"]
+    "using": ["solver_minimal_1", "solver_1"],
+    "patents": {
+        "status": "licence-required",
+        "note": "EVC main profile (the baseline profile is royalty-free)",
+        "checked": "2026-10-16"
+    }
 }
