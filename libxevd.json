@@ -1,5 +1,6 @@
 {
     "name": "libxevd",
+    "version": "1.0.1",
     "description": "MPEG-5 EVC (Essential Video Coding) decoder",
     "filters":["evcdec"],
     "help": "This filter decodes raw EVC elementary streams using xevd.",
@@ -13,7 +14,7 @@
     "extension":{
       "evc" : "video"
     },
-    "using": ["solver_minimal_1", "solver_1"],
+    "using": ["mm_solver_minimal_1.0.1", "mm_solver_1.0.1"],
     "patents": {
         "status": "licence-required",
         "note": "EVC main profile (the baseline profile is royalty-free)",
